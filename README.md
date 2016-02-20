@@ -12,4 +12,6 @@ This works well with my [fortune.vim](https://github.com/iwataka/fortune.vim) an
 
 ## Credit
 
-Thanks to [schacon/cowsay](https://github.com/schacon/cowsay)
+Thanks to the below programs:
+
++ [schacon/cowsay](https://github.com/schacon/cowsay) provided under the Artistic License or the GNU General Public License (same as Perl)
