@@ -7,11 +7,18 @@ This works well with my [fortune.vim](https://github.com/iwataka/fortune.vim) an
 
 + cowsay#cowsay(lines, animal)
 
-    The specified animal will say the sentence.
-    Go [here](https://github.com/schacon/cowsay/tree/master/cows) to see the list of available animals 
+    Specified animal will say the sentence (given lines).
+    Go [here](https://github.com/schacon/cowsay/tree/master/cows) to check the list of available animals.
+
+    If you want to add more animals, you can add custom cowsay file patterns to g:cowsay_file_glob_patterns like below.
+
+    ```vim
+    " after loading cowsay.vim
+    let g:cowsay_file_glob_patterns = ['/path/to/somewhere/*.cow'] + g:cowsay_file_glob_patterns
+    ```
 
 ## Credit
 
 Thanks to the below programs:
 
-+ [schacon/cowsay](https://github.com/schacon/cowsay) provided under the Artistic License or the GNU General Public License (same as Perl)
++ [schacon/cowsay](https://github.com/schacon/cowsay)
