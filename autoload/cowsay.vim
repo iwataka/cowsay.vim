@@ -1,9 +1,7 @@
 scriptencoding utf-8
 
-if &compatible || (exists('g:loaded_cowsay') && g:loaded_cowsay)
-  finish
-endif
-let g:loaded_cowsay = 1
+let s:save_cpo = &cpoptions
+set cpoptions&vim
 
 let s:sub_map = {
       \ 'thoughts': 'o',
@@ -91,3 +89,6 @@ endfu
 fu! s:random(n)
   return float2nr(fmod(localtime(), a:n))
 endfu
+
+let &cpo = s:save_cpo
+unlet s:save_cpo
