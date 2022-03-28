@@ -21,4 +21,4 @@ This works well with my [fortune.vim](https://github.com/iwataka/fortune.vim) an
 
 Thanks to the below programs:
 
-+ [schacon/cowsay](https://github.com/schacon/cowsay)
++ [tnalpgge/rank-amateur-cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
