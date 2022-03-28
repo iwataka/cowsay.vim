@@ -8,7 +8,7 @@ This works well with my [fortune.vim](https://github.com/iwataka/fortune.vim) an
 + cowsay#cowsay(lines, animal)
 
     Specified animal will say the sentence (given lines).
-    Go [here](https://github.com/schacon/cowsay/tree/master/cows) to check the list of available animals.
+    Go [here](https://github.com/tnalpgge/rank-amateur-cowsay/tree/master/cows) to check the list of available animals.
 
     If you want to add more animals, you can add custom cowsay file patterns to g:cowsay_file_glob_patterns like below.
 
@@ -19,6 +19,6 @@ This works well with my [fortune.vim](https://github.com/iwataka/fortune.vim) an
 
 ## Credit
 
-Thanks to the below programs:
+Thanks to the below projects.
 
 + [tnalpgge/rank-amateur-cowsay](https://github.com/tnalpgge/rank-amateur-cowsay)
